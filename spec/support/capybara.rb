@@ -36,6 +36,8 @@ end
 
 # This env var comes from the heroku-buildpack-google-chrome
 chrome_bin = ENV.fetch('GOOGLE_CHROME_SHIM', nil)
+# This env var comes from chromedriver_linux, e.g. TravisCI
+chrome_bin ||= ENV.fetch('CHROME_BIN', nil)
 chrome_options = {}
 chrome_options[:binary] = chrome_bin if chrome_bin
 
