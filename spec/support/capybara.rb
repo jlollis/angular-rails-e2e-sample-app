@@ -32,6 +32,10 @@ RSpec.configure do |config|
       end
     end
   end
+
+  config.after(:suite) do
+    FrontendServer.stop if FrontendServer.started?
+  end
 end
 
 # This env var comes from the heroku-buildpack-google-chrome
