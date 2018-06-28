@@ -10,7 +10,7 @@ require 'selenium/webdriver'
 #   * :headless_chrome
 #
 # It hard codes an assumption that the Rails app runs on port 3001.
-#
+
 FrontendServer = CapybaraSpa::Server::NgStaticServer.new(
   build_path: File.dirname(__FILE__) + '/../../frontend/dist/frontend',
   http_server_bin_path: File.dirname(__FILE__) + '/../../frontend/node_modules/.bin/angular-http-server',
