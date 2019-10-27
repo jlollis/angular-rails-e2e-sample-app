@@ -7,6 +7,7 @@ It is a part of the this blog post series: https://www.mutuallyhuman.com/blog/20
 ## Requirements
 
 * Any version of of Ruby 2.x, starting with Ruby 2.3
+- Updated for Ruby 2.5.1
 
 ## To run the specs
 
@@ -18,3 +19,6 @@ It is a part of the this blog post series: https://www.mutuallyhuman.com/blog/20
 ---
 For the upgrade, I followed these instructions:
 https://hashrocket.com/blog/posts/how-to-upgrade-to-rails-5
+
+And this to switch from sqlite3 to postgres:
+https://medium.com/@helenflam/how-to-change-your-rails-app-database-from-sqlite-to-postgresql-before-deploying-to-heroku-ae2acc25c7ac
