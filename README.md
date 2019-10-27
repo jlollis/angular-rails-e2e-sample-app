@@ -15,7 +15,6 @@ It is a part of the this blog post series: https://www.mutuallyhuman.com/blog/20
 * Install dependencies: `bundle install && cd frontend && npm install && cd ..`
 * Run specs: `bundle exec rspec spec/features`
 
-Sample app repository for the blog series: https://www.mutuallyhuman.com/blog/2018/06/01/end-to-end-testing-w-rails-5-angular-5-capybara-and-selenium-part-1-of-4
-
+---
 For the upgrade, I followed these instructions:
 https://hashrocket.com/blog/posts/how-to-upgrade-to-rails-5
